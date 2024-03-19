@@ -10,8 +10,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AmazonConfig {
+    /*
     @Bean
+
     public AmazonS3 s3 () {
+
         AWSCredentials awsCredentials = new BasicAWSCredentials(
                "AKIA2UC3D2PYGOYYA4ZX",
                 "meSZH3YlYY0TfZy6l4Hj2hhL4DWxmRF1XDMVFu1X"
@@ -21,5 +24,6 @@ public class AmazonConfig {
                 .standard()
                 .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
                 .build();
-    }/*to inject in other classes*/
+    }
+        */ 
 }
